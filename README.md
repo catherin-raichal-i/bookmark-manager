@@ -2,6 +2,14 @@
 
 A professional, real-time Bookmark Manager built with **Next.js**, **Supabase**, and **Tailwind CSS**. This application allows users to securely save, organize, and manage their favorite links with instant updates and seamless Google authentication.
 
+---
+
+## 🚀 Live Demo
+
+- **Vercel URL:** [Add your deployed link here]
+
+---
+
 ## 🚀 Features
 - **Google OAuth Login**: Secure authentication powered by Supabase Auth.
 - **Real-time Synchronization**: Bookmarks update instantly across all open tabs.
