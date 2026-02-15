@@ -6,7 +6,7 @@ A professional, real-time Bookmark Manager built with **Next.js**, **Supabase**,
 
 ## 🚀 Live Demo
 
-- **Vercel URL:** [Add your deployed link here]
+- **Vercel URL:** [https://bookmark-manager-task.vercel.app/]
 
 ---
 
