@@ -2,13 +2,13 @@
 
 A professional, real-time Bookmark Manager built with **Next.js**, **Supabase**, and **Tailwind CSS**. This application allows users to securely save, organize, and manage their favorite links with instant updates and seamless Google authentication.
 
---
+---
 
 ## 🚀 Live Demo
 
 - **Vercel URL:** [https://bookmark-manager-task.vercel.app/]
 
---
+---
 
 ## 🚀 Features
 - **Google OAuth Login**: Secure authentication powered by Supabase Auth.
@@ -17,7 +17,7 @@ A professional, real-time Bookmark Manager built with **Next.js**, **Supabase**,
 - **Responsive Design**: Beautifully crafted with Tailwind CSS for mobile and desktop.
 - **Protected Dashboard**: Personalized space for every user.
 
---
+---
 
 ## 🛠️ Tech Stack
 - **Framework**: Next.js (App Router)
@@ -26,7 +26,7 @@ A professional, real-time Bookmark Manager built with **Next.js**, **Supabase**,
 - **Backend/Database**: Supabase
 - **Authentication**: Supabase Auth (Google Provider)
 
---
+---
 
 ## 🔧 Installation & Setup
 
@@ -47,7 +47,7 @@ A professional, real-time Bookmark Manager built with **Next.js**, **Supabase**,
    npm run dev
    ```
 
---
+---
 
 ## 🚧 Challenges & Solutions
 
@@ -63,7 +63,7 @@ Google authentication initially failed due to incorrect redirect URLs and incomp
 - Restarted the development server after env changes  
 - Verified the OAuth flow using Supabase logs  
 
---
+---
 
 ### 🔒 2. Ensuring User-Private Bookmarks (RLS)
 
@@ -79,7 +79,7 @@ Bookmarks from different users were visible because Row Level Security (RLS) pol
   - Delete their own bookmarks  
 - Tested using multiple Google accounts  
 
---
+---
 
 ### ⚡ 3. Realtime Updates Across Tabs
 
@@ -92,7 +92,7 @@ New bookmarks were not appearing automatically in other open tabs.
 - Updated React state on INSERT and DELETE  
 - Properly cleaned up subscriptions to prevent duplicates  
 
---
+---
 
 ### 🌐 4. Environment Variables Not Loading
 
@@ -105,7 +105,7 @@ Supabase client failed because Next.js was not reading environment variables.
 - Restarted the dev server after changes  
 - Added `.env.local` to `.gitignore`  
 
---
+---
 
 ### 🧭 5. Next.js App Router Confusion
 
@@ -118,7 +118,7 @@ Mixing App Router with Pages Router examples caused routing and layout issues.
 - Marked interactive components with `"use client"`  
 - Referred to official documentation for App Router patterns  
 
---
+---
 
 ### 🚀 6. Deployment Issues on Vercel
 
@@ -131,7 +131,7 @@ Initial Vercel deployment failed due to missing environment variables and OAuth 
 - Tested Google login in production  
 - Fixed build errors and redeployed successfully  
 
---
+---
 
 ### 🗑️ 7. UI Not Updating After Delete
 
@@ -143,12 +143,12 @@ Deleted bookmarks were not immediately removed from the UI.
 - Implemented optimistic UI update  
 - Synced local state after database change  
 
---
+---
 
 ✅ **Result:**  
 All features work correctly — secure auth, private bookmarks, realtime sync, delete functionality, and successful Vercel deployment.
 
---
+---
 
 ## 📝 License
 Created by **Catherin Raichal**.
