@@ -32,7 +32,7 @@ A professional, real-time Bookmark Manager built with **Next.js**, **Supabase**,
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/catherin-raichal/bookmark-manager.git
+   git clone https://github.com/catherin-raichal-i/bookmark-manager.git
    ```
 2. **Install Dependencies**:
    ```bash
